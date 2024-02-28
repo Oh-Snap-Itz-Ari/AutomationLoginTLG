@@ -25,16 +25,16 @@ public class BaseTest{
 
         ChromeOptions opts = new ChromeOptions();
 
-        /*try {
+        try {
             driver = new RemoteWebDriver(new URL(HOST_URL), opts);
         }catch (MalformedURLException e){
             e.printStackTrace();
-        }*/
+        }
 
-        /* Los siguientes elementos se desactivan para correr Docker: */
+        /* Los siguientes elementos se desactivan para correr Docker:
         opts.addArguments("--disable-notifications"); // Permite desactivar las notificaciones de Chrome
         opts.addArguments("--start-maximized"); // Permite iniciar Chrome Maximizado
-        driver = new ChromeDriver(opts); /**/
+        driver = new ChromeDriver(opts); */
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get(APP_URL);
