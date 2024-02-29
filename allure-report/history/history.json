@@ -1,1 +1,0 @@
-{"a5dee6014b03f2beb38c0f31ed3f03d8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"24863634dc06980e","reportUrl":"http://localhost:8080/job/Automation%20Login%20TLG%20(Local)/1/allure/#testresult/24863634dc06980e","status":"passed","time":{"start":1709135164291,"stop":1709135179077,"duration":14786}}]}}
